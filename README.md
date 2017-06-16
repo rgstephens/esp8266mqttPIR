@@ -22,7 +22,7 @@ ipInterval | default number of intervals between sending IP address, zero to nev
 
 ## MQTT Configurable Parameters
 
-The following parameters can be configured via MQTT.
+The following parameters can be configured via MQTT. 
 
 Topic|Use
 ---|---
@@ -31,4 +31,4 @@ esp8266/config/ipinterval | number of intervals between sending IP address, zero
 
 ## Wiring photo
 
-![Photo of Wiring](https://github.com/rgstephens/esp8266mqttPIR/pirWiring.jpg)
+![Photo of Wiring](https://github.com/rgstephens/esp8266mqttPIR/blob/master/pirWiring.jpg)
