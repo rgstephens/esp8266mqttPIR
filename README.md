@@ -2,6 +2,12 @@ This is an example sketch for the esp8266 with a PIR motion sensor that sends an
 
 It is a fork of my basic esp8266 MQTT example sketch.
 
+## Hardware
+
+For this project I'm using a NodeMCU esp8266 board. The [HiLetgo](https://www.amazon.com/gp/product/B010O1G1ES/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) board. There's a good pinout diagram for the ESP8266 [here](http://www.kloppenborg.net/blog/microcontrollers/2016/08/02/getting-started-with-the-esp8266)
+
+I'm using the [HC-SR501](http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-hc-sr501-motion-sensor-tutorial/)  
+
 ## Settings in Header
 
 Variable|Use
@@ -23,13 +29,6 @@ Topic|Use
 esp8266/config/delay | main loop delay in milleseconds
 esp8266/config/ipinterval | number of intervals between sending IP address, zero to never send
 
+## Wiring photo
 
-## ESP8266 Boards
-
-Review of [ESP8266 boards](https://openhomeautomation.net/choose-esp8266-module/)
-
-## MQTT Libraries
-
-- PubSubClient.h, [Arduino Client for MQTT](http://pubsubclient.knolleary.net/)
-- Adafruit_MQTT.h, [Arduino MQTT Library](https://github.com/adafruit/Adafruit_MQTT_Library)
-- MQTTClient.h, [256dpi Library](https://github.com/256dpi/arduino-mqtt) Paho based (limited ESP8266 boards)
+![Photo of Wiring](https://github.com/rgstephens/esp8266mqttPIR/pirWiring.jpg)
