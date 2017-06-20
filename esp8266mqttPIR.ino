@@ -8,6 +8,7 @@
  *    esp8266/config/delay       // main loop delay in milleseconds
  *    esp8266/config/ipinterval  // number of intervals between sending IP address, zero to never send
  *
+ *  The HC-SR501 PIR sensor is assumed to be connected to Pin D6
  */
 
 #include <ESP8266WiFi.h>
